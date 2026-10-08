@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# Line Schedule source files
+Input/Line Schedule/*
+!Input/Line Schedule/.gitkeep
+
+# Generated output
+Output/*
+!Output/.gitkeep
+
+# Archived reports
+Archive/*
+!Archive/.gitkeep
+
+# Logs
+Logs/*
+!Logs/.gitkeep
+
+# Temporary Excel files
+~$*.xlsx
+~$*.xlsm
+
+# Operating system files
+Thumbs.db
+.DS_Store
