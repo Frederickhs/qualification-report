@@ -1,4 +1,4 @@
-# Qualification Report
+﻿# Qualification Report
 
 A Python-based Excel reporting tool that measures qualification coverage for technicians listed in the Dark Universe Line Schedule.
 
@@ -53,7 +53,7 @@ Config\settings.json
 Current source folder:
 
 ```text
-G:\Dev\Qual Tracker\Input\Qualification
+G:\Dev\Qual_Tracker\Input\Qualification
 ```
 
 The report expects these 11 unedited Maximo exports:
@@ -240,23 +240,23 @@ python Scripts\line_schedule_reader.py
 
 ```text
 Qualification Report
-├── Archive
-├── Config
-│   └── settings.json
-├── Documentation
-├── Input
-│   └── Line Schedule
-├── Logs
-├── Output
-├── Scripts
-│   ├── coverage_processor.py
-│   ├── line_schedule_reader.py
-│   ├── qualification_reader.py
-│   └── report_generator.py
-├── Tests
-├── .gitignore
-├── README.md
-└── Run Qualification Report.bat
+â”œâ”€â”€ Archive
+â”œâ”€â”€ Config
+â”‚   â””â”€â”€ settings.json
+â”œâ”€â”€ Documentation
+â”œâ”€â”€ Input
+â”‚   â””â”€â”€ Line Schedule
+â”œâ”€â”€ Logs
+â”œâ”€â”€ Output
+â”œâ”€â”€ Scripts
+â”‚   â”œâ”€â”€ coverage_processor.py
+â”‚   â”œâ”€â”€ line_schedule_reader.py
+â”‚   â”œâ”€â”€ qualification_reader.py
+â”‚   â””â”€â”€ report_generator.py
+â”œâ”€â”€ Tests
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â””â”€â”€ Run Qualification Report.bat
 ```
 
 ## Configuration
@@ -297,3 +297,4 @@ The repository excludes operational and employee data, including:
 - Temporary Excel files
 
 Do not commit employee rosters, SSOs, Maximo exports, generated reports, or other operational data to GitHub.
+
